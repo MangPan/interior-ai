@@ -19,7 +19,10 @@ function AiOutputDialog({ openDialog, setOpenDialog, orgImage, aiImage }) {
     return (
         <dialog id="my_modal_1" className="modal">
             <div className="modal-box">
-                <h3 className="font-bold text-lg">Result:</h3>
+                <div className="flex justify-between items-center mb-2">
+                    <h3 className="font-bold text-lg">Result:</h3>
+                    <span className="text-xs text-gray-400 font-mono">by 2025810083 강민준</span>
+                </div>
 
                 <ReactBeforeSliderComponent
                     firstImage={{
